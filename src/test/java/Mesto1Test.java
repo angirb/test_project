@@ -64,5 +64,4 @@ public class Mesto1Test {
                 .delete("/api/cards/{photoId}/likes", photoId) // Делаем DELETE-запрос
                 .then().assertThat().statusCode(200); // Проверяем, что сервер вернул код 200
     }
-
 } 
